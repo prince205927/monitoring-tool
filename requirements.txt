@@ -1,5 +1,0 @@
-Flask
-pymongo
-apscheduler
-psutil
-scikit-learn
