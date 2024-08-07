@@ -1,0 +1,9 @@
+CREATE TABLE server_stats (
+    id SERIAL PRIMARY KEY,
+    TIMESTAMP TIMESTAMP NOT NULL,
+    cpu_usage FLOAT NOT NULL,
+    mem_total INTEGER NOT NULL,
+    mem_used INTEGER NOT NULL
+);
+
+SELECT * FROM server_stats;
